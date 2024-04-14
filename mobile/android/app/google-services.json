@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "595462528065",
+    "project_id": "mmeet-50f3d",
+    "storage_bucket": "mmeet-50f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595462528065:android:42a506562ee5563867bac0",
+        "android_client_info": {
+          "package_name": "app.mmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595462528065-pj88u69v1738hli4i27gl975s3js9652.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcXBNKqr_NI_8EJKNycwKP-nffoTWUcN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595462528065-pj88u69v1738hli4i27gl975s3js9652.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

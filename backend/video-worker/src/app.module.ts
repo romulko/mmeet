@@ -1,0 +1,50 @@
+import { Module } from '@nestjs/common';
+import { ConfigModule, ConfigService } from '@nestjs/config';
+import { WorkerModule } from './modules/worker/worker.module';
+import { RedisModule } from '@liaoliaots/nestjs-redis';
+import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
+
+@Module({
+  imports: [
+    ConfigModule.forRoot({
+      envFilePath: ['.env.local', '.env.prod'],
+      isGlobal: true,
+    }),
+
+    RedisModule.forRootAsync({
+      inject: [ConfigService],
+      useFactory: (configService: ConfigService) => ({
+        config: {
+          host: configService.get('REDIS_HOST'),
+          port: configService.get('REDIS_PORT'),
+          password: configService.get('REDIS_PASSWORD'),
+          keepAlive: 120,
+        },
+      }),
+    }),
+
+    RabbitMQModule.forRootAsync(RabbitMQModule, {
+      inject: [ConfigService],
+      useFactory: (configService: ConfigService) => {
+        const user = configService.get('RABBITMQ_USER');
+        const password = configService.get('RABBITMQ_PASSWORD');
+        const host = configService.get('RABBITMQ_HOST');
+
+        return {
+          exchanges: [
+            {
+              name: 'video',
+              type: 'topic',
+            },
+          ],
+          uri: `amqp://${user}:${password}@${host}`,
+          connectionInitOptions: { wait: true },
+          prefetchCount: 1,
+        };
+      },
+    }),
+
+    WorkerModule,
+  ],
+})
+export class AppModule {}
