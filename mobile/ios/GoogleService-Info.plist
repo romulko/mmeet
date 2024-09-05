@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>164852752602-7n3lksft6l2j3v3eistsmffs917gmd69.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.164852752602-7n3lksft6l2j3v3eistsmffs917gmd69</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDoYh-6Y2cKENJp68bPLRpOmpAUAOqbdz0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>164852752602</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.mmeet</string>
+	<key>PROJECT_ID</key>
+	<string>omeet-d3bf0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>omeet-d3bf0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:164852752602:ios:8cf22b264fb14bcd62c5e3</string>
+</dict>
+</plist>

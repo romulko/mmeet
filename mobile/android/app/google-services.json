@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "595462528065",
+    "project_id": "mmeet-50f3d",
+    "storage_bucket": "mmeet-50f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595462528065:android:42a506562ee5563867bac0",
+        "android_client_info": {
+          "package_name": "app.mmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595462528065-6rq3u6uk0u13i7pe44u200p317u79pv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mmeet",
+            "certificate_hash": "83b4636f1594747a07c077d2b38ebd80d01b0a7a"
+          }
+        },
+        {
+          "client_id": "595462528065-lubgh9gdbs5t1eijcu3tqgip37mcgrgo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mmeet",
+            "certificate_hash": "da5389364f526b343180f99790a32d6d5952f028"
+          }
+        },
+        {
+          "client_id": "595462528065-r4nln90n9l5dm4k2ai718hrh04lim7hm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mmeet",
+            "certificate_hash": "2197c0cf5ed6d0779f51cde040df08a325e25ca6"
+          }
+        },
+        {
+          "client_id": "595462528065-pj88u69v1738hli4i27gl975s3js9652.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABX9g1HvSl7mKTcRX2QD72CiRNevASPkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595462528065-pj88u69v1738hli4i27gl975s3js9652.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

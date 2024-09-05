@@ -1,0 +1,27 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "skipLegacyWorkersInjection": true,
+  "devices": {
+    "simulator": {
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 13"
+      }
+    }
+  },
+  "apps": {
+    "ios": {
+      "name": "mmeet",
+      "type": "ios.app",
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/mmeet.app",
+      "build": "xcodebuild -workspace ios/mmeet.xcworkspace -scheme mmeet -sdk iphonesimulator -derivedDataPath ios/build"
+    }
+  },
+  "configurations": {
+    "ios": {
+      "device": "simulator",
+      "app": "ios"
+    }
+  }
+}

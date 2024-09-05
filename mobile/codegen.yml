@@ -1,0 +1,13 @@
+schema:
+  - src/service/apollo/client-schema.graphql
+  - http://localhost:3000/graphql
+#  - https://api.mmeet.app/graphql
+documents: './src/**/*.ts'
+generates:
+  src/service/apollo/generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    config:
+      withHooks: true

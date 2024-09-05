@@ -1,0 +1,9 @@
+#type UploadProcess {
+#    filePath: String!
+#    isCancelRequested: Boolean
+#}
+
+#./client-schema.graphql
+
+# see: https://www.apollographql.com/docs/react/local-state/managing-state-with-field-policies/
+directive @client on FIELD

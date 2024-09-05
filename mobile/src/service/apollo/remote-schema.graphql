@@ -1,0 +1,235 @@
+# This file was generated based on ".graphqlconfig". Do not edit manually.
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Address {
+    id: Int!
+    lat: Float!
+    lng: Float!
+    placeId: String!
+    placeLabel: String!
+    time: DateTime!
+}
+
+type Answer {
+    id: Int!
+    questionId: Float!
+    user: User!
+}
+
+type Match {
+    fromUser: User
+    fromUserInterestedPhoto: Boolean
+    fromUserInterestedVideo: Boolean
+    id: Int!
+    meeting: Meeting
+    toUser: User
+    toUserInterestedPhoto: Boolean
+    toUserInterestedVideo: Boolean
+}
+
+type Meeting {
+    acceptedAddress: Address
+    fromUserAddress: Address
+    id: Int!
+    match: Match!
+    toUserAddress: Address
+}
+
+type Mutation {
+    accept(input: MeetingAcceptInput!): Meeting!
+    cancel(input: MeetingCancelInput!): Meeting!
+    interestingPhoto(input: MatchInterestingPhotoInput!): Match!
+    interestingVideo(input: MatchInterestingVideoInput!): Match!
+    paymentBuyMmeets(input: PaymentBuyMmeetsInput!): User!
+    propose(input: MeetingProposeInput!): Meeting!
+    questionAnswer(input: QuestionAnswerInput!, video: Upload!): Answer!
+    questionDeleteAnswer(input: QuestionDeleteAnswerInput!): Answer!
+    skipPhoto(input: MatchSkipPhotoInput!): Match!
+    skipVideo(input: MatchSkipVideoInput!): Match!
+    userDeleteAccount: User!
+    userInviteFriend(input: UserInviteFriendInput!): User!
+    userUpdateAgeRange(userAgeRangeInput: UserAgeRangeInput!): User!
+    userUpdateBirthday(userBirthdayInput: UserBirthdayInput!): User!
+    userUpdateCity(input: UserCityInput!): User!
+    userUpdateGender(userGenderInput: UserGenderInput!): User!
+    userUpdateLanguage(input: UserLanguageInput!): User!
+    userUpdateLookingFor(userLookingForInput: UserLookingForInput!): User!
+    userUpdateName(userNameInput: UserNameInput!): User!
+    userUpdatePhoto(photo: Upload!): User!
+    userUpdateZodiacSigns(input: UserZodiacSignsInput!): User!
+}
+
+type Query {
+    findPeople(input: UserFindPeopleInput!): [User!]!
+    match(input: MatchFindOneInput!): Match
+    matches: [Match!]!
+    me: User
+    paymentSkus: [Sku!]!
+    questions(input: QuestionsInput!): [Question!]!
+}
+
+type Question {
+    answer: Answer
+    id: Int!
+    questions: [QuestionItem!]!
+    text: String!
+}
+
+type QuestionItem {
+    id: Int!
+    text: String!
+}
+
+type Sku {
+    sku: String!
+}
+
+type User {
+    ageRange: String
+    availableMeetings: Float
+    birthday: DateTime
+    cityId: String
+    cityLabel: String
+    email: String
+    fcmToken: String
+    gender: GenderType
+    googleId: String
+    id: Int!
+    isPhotoAvailable: Boolean
+    language: String
+    lookingFor: GenderType
+    name: String
+    zodiacSign: ZodiacSign
+    zodiacSigns: [ZodiacSign!]
+}
+
+enum GenderType {
+    FEMALE
+    MALE
+}
+
+enum ZodiacSign {
+    AQUARIUS
+    ARIES
+    CANCER
+    CAPRICORNUS
+    GEMINI
+    LEO
+    LIBRA
+    PISCES
+    SAGITTARIUS
+    SCORPIUS
+    TAURUS
+    VIRGO
+}
+
+"A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format."
+scalar DateTime
+
+"The `Upload` scalar type represents a file upload."
+scalar Upload
+
+input MatchFindOneInput {
+    matchId: Float!
+}
+
+input MatchInterestingPhotoInput {
+    interestingUserId: Float!
+}
+
+input MatchInterestingVideoInput {
+    matchId: Float!
+}
+
+input MatchSkipPhotoInput {
+    skipUserId: Float!
+}
+
+input MatchSkipVideoInput {
+    matchId: Float!
+}
+
+input MeetingAcceptInput {
+    matchId: Float!
+}
+
+input MeetingCancelInput {
+    matchId: Float!
+}
+
+input MeetingProposeInput {
+    matchId: Float!
+    placeId: String!
+    placeLabel: String!
+    time: DateTime!
+}
+
+input PaymentBuyMmeetsInput {
+    productId: String!
+    purchase: String!
+}
+
+input QuestionAnswerInput {
+    questionId: Float!
+    userId: Float!
+}
+
+input QuestionDeleteAnswerInput {
+    questionId: Float!
+    userId: Float!
+}
+
+input QuestionsInput {
+    userId: Float!
+}
+
+input UserAgeRangeInput {
+    from: Float!
+    to: Float!
+}
+
+input UserBirthdayInput {
+    birthday: DateTime!
+}
+
+input UserCityInput {
+    cityId: String!
+    cityLabel: String!
+}
+
+input UserFindPeopleInput {
+    cityId: String!
+    fromAge: DateTime!
+    lookingFor: GenderType!
+    toAge: DateTime!
+    userId: Float!
+    zodiacSigns: [ZodiacSign!]
+}
+
+input UserGenderInput {
+    gender: GenderType!
+}
+
+input UserInviteFriendInput {
+    email: String!
+}
+
+input UserLanguageInput {
+    language: String!
+}
+
+input UserLookingForInput {
+    lookingFor: GenderType!
+}
+
+input UserNameInput {
+    name: String!
+}
+
+input UserZodiacSignsInput {
+    zodiacSigns: [ZodiacSign!]
+}

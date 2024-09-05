@@ -1,0 +1,225 @@
+{
+  "labels": {
+    "email": "Email",
+    "next": "Next",
+    "loading": "Loading...",
+    "loadingVideo": "Loading mmeet-video...",
+    "alert": {
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "gender": {
+      "male": "Man",
+      "female": "Woman"
+    }
+  },
+  "buttons": {
+    "logOut": "Log Out",
+    "deleteAccount": "Delete Account",
+    "save": "Save"
+  },
+  "login": {
+    "title": "it’s where we meet each other’s personalities"
+  },
+  "registration": {
+    "goToHome": "Home",
+    "photo": "Photo",
+    "finish": {
+      "title": "Thank you ❤",
+      "description": "Now you are ready to looking around"
+    }
+  },
+  "home": {
+    "tabs": {
+      "find": {
+        "label": "Find",
+        "noProposal": "No Proposal Yet",
+        "fetchProposals": "Reload",
+        "buttons": {
+          "like": "Interesting",
+          "skip": "Skip"
+        }
+      },
+      "matches": {
+        "label": "Matches",
+        "dates": "Dates",
+        "noMatches": "No Matches Yet",
+        "noDates": "No Matches Yet",
+        "notFound": "Match not found",
+        "youProposed": "You've proposed",
+        "partnerNeedsToHaveMainVideo": "{partnerName} hasn't recorded {hisHer} mmeet-video yet. Check back later.",
+        "statues": {
+          "YOU_MUST_VIEW_PARTNER_VIDEO": "watch {partnerName}'s video",
+          "PARTNER_MUST_VIEW_YOUR_VIDEO":  "{partnerName} will watch your video soon",
+          "YOU_MUST_PROPOSE_MEETING": "Propose a Meeting",
+          "PARTNER_MUST_ACCEPT_OR_DECLINE_MEETING": "wait for {partnerName} accept your meeting",
+          "YOU_MUST_ACCEPT_OR_DECLINE_MEETING": "Accept or decline a Meeting",
+          "MEETING_SETUP": "Meeting accepted"
+        },
+        "proposeMeeting": "propose a meeting",
+        "waitingResponse": "waiting {hisHer} response",
+        "likeVideo": "like {heShe} mmeet-video",
+        "likedVideo": "You've liked {heShe} mmeet-video",
+        "skipedVideo": "You've unmatched with {partnerName}",
+        "waitingLike": "waiting {hisHer} like",
+        "fillContactInfo": "You have to fill your contact info in Profile before setup a meeting with {partnerName}",
+        "waitContactInfo": "{partnerName} doesn't have contact info yet.\n\nWait until {heShe} will fill it out to have ability to setup a meeting.",
+        "openMore": {
+          "unmatch": {
+            "buttonLabel": "Unmatch",
+            "title": "Unmatch with {partnerName}",
+            "description": "Are you sure you want to unmatch with {partnerName}?",
+            "yesUnmatch": "Yes, unmatch"
+          },
+          "complaint": "Complaint"
+        },
+        "details": {
+          "cancelMeetingPopup": {
+            "title": "Cancel meeting",
+            "message": "Are you sure you want to cancel this meeting?",
+            "yesCancel": "Yes, cancel",
+            "no": "No"
+          }
+        },
+        "contactInfo": "{hisHer} will be available in 30 minutes before meeting",
+        "routes": {
+          "proposeMeeting": {
+            "title": "Propose a Meeting",
+            "date": "Date",
+            "time": "Time",
+            "address": "Address",
+            "proposeButton": "Propose"
+          }
+        }
+      }
+    }
+  },
+  "notifications": {
+    "IT_IS_MATCH": "Congratulations, it's match. {fromUserName}, {toUserName}",
+    "MATCH_INTERESTING_VIDEO": "{userName} liked your mmeet-video",
+    "MEETING_PROPOSE": "{userName} proposed a meeting",
+    "MEETING_CANCEL": "{userName} canceled a meeting",
+    "MEETING_ACCEPT": "{userName} accepted a meeting",
+    "VIDEO_PROCESSING": "mmeet-video is updated successfully"
+  },
+  "complaint": {
+    "title": "Complaint on {partnerName}",
+    "reason": "Reason",
+    "sendButton": "Send",
+    "successSentMessage": "Complaint sent successfully"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "birthday": "Birthday",
+    "gender": "I'm",
+    "contactInfo": "Contact info",
+    "language": "Language",
+    "privacyPolicy": "Privacy Policy",
+    "contactUs": "Contact Us",
+    "terms": "Terms of Use",
+    "editors": {
+      "contactInfo": {
+        "description": "Your contact info will be shown to your match 30 minutes before meeting with you to have ability to contact with you",
+        "placeholder": "Phone, Instagram, Facebook..."
+      }
+    }
+  },
+  "contactUs": {
+    "description": "If you have any suggestions - feel free to contact us",
+    "sendButton": "Send",
+    "successSent": "Sent"
+  },
+  "videoStudio": {
+    "title": "Video Studio",
+    "buttons": {
+      "mainVideo": {
+        "label": "mmeet-video",
+        "states": {
+          "noVideos": "Answer at least one question below to have your mmeet-video",
+          "processing": "mmeet-video will be updated soon..."
+        }
+      },
+      "record": "Start Recording",
+      "finish": "Finish",
+      "upload": "Upload",
+      "routes": {
+        "info": {
+          "title": "What is mmeet-video?",
+          "description": "As soon as you answer any questions on previous screen - videos of them will be merged into one, mmeet-video.\n\nmmeet video will be shown to your matches and vice versa after you and your match will like photo likes"
+        }
+      }
+    },
+    "alert": {
+      "deleteAnswer": {
+        "title": "Delete answer",
+        "description": "Are you sure you want to delete this answer?",
+        "confirm": "Yes, delete"
+      }
+    },
+    "processing": "Uploading..."
+  },
+  "inviteFriend": {
+    "title": "Invite Friend",
+    "description": "Invite your friend. Ask questions and record them. When your friend will register, mmeet-video will be already there.",
+    "subText": "* when you click next - your friend will be registered and you wont be able to invite this email again",
+    "buttons": {
+      "inviteFriend": "Invite Friend"
+    },
+    "routes": {
+      "questions": {
+        "title": "Questions",
+        "description": "Ask your friend {inviteUserEmail} to answer questions below and record them on your device. mmeet-video will wait after friend's registration"
+      },
+      "statistic": {
+        "title": "Statistic",
+        "noData": "No invited friends yet",
+        "routes": {
+          "info": {
+            "description": "Invited friends statistics show the friends you have invited and their statistics.\n\nThis section can be seen as showing the chain of events of which you are the author. People meet, you helped it."
+          }
+        }
+      }
+    }
+  },
+  "findOptions": {
+    "title": "Find Options",
+    "interestingIn": "Interested In",
+    "city": "City",
+    "zodiacSigns": {
+      "label": "Zodiac Signs",
+      "allSelected": "All",
+      "ifNothingMeanAll": "If nothing selected means selected all"
+    },
+    "ageRange": {
+      "label": "Age Range",
+      "yearsOld": "{ageRange} years old"
+    }
+  },
+  "subscriptions": {
+    "name": "Subscription",
+    "title": "Get mmUnlim",
+    "month": "month",
+    "months": "months",
+    "mo": "mo",
+    "meetingsAvailable": "You have {mmeetsCount} mmeets available on this week",
+    "promotions": {
+      "p1": "unlimited mmeets",
+      "p2": "unforgettable experience"
+    },
+    "info": {
+      "title": "Weekly quote",
+      "desc1": "Users get {count} mmeets every week.",
+      "desc2": "Each accepted meeting is 1 mmeet.",
+      "desc3": "Subscribe to get unlimited mmeets."
+    }
+  },
+  "hisHer": {
+    "his": "his",
+    "her": "her"
+  },
+  "heShe": {
+    "he": "he",
+    "she": "she"
+  }
+}

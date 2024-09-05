@@ -1,0 +1,12 @@
+{
+  "name": "Remote Schema",
+  "schemaPath": "src/service/apollo/remote-schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "mmeet prod": {
+        "url": "https://api.mmeet.app/graphql",
+        "introspect": true
+      }
+    }
+  }
+}

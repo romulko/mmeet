@@ -1,0 +1,225 @@
+{
+  "labels": {
+    "email": "Імейл",
+    "next": "Далі",
+    "loading": "Завантаження...",
+    "loadingVideo": "Завантаження mmeet-відео...",
+    "alert": {
+      "delete": "Удалить",
+      "cancel": "Відміна"
+    },
+    "gender": {
+      "male": "Чоловік",
+      "female": "Жінка"
+    }
+  },
+  "buttons": {
+    "logOut": "Вийти",
+    "deleteAccount": "Видалити профіль",
+    "save": "Зберегти"
+  },
+  "login": {
+    "title": "простір зустрічей особистостей"
+  },
+  "registration": {
+    "goToHome": "Головна",
+    "photo": "Фото",
+    "finish": {
+      "title": "Дякуємо ❤",
+      "description": "Тепер ви готові до пошуку"
+    }
+  },
+  "home": {
+    "tabs": {
+      "find": {
+        "label": "Пошук",
+        "noProposal": "Поки немає пропозицій",
+        "fetchProposals": "Завантажити",
+        "buttons": {
+          "like": "Цікаво",
+          "skip": "Пропустити"
+        }
+      },
+      "matches": {
+        "label": "Матчі",
+        "dates": "Зустрічі",
+        "noMatches": "Поки немає матчів",
+        "noDates": "Поки немає зустрічей",
+        "notFound": "Матч не знайдено",
+        "youProposed": "Ви запропонували",
+        "partnerNeedsToHaveMainVideo": "{partnerName} поки не має mmeet-відео. Зайдіть пізніше.",
+        "statues": {
+          "YOU_MUST_VIEW_PARTNER_VIDEO": "погляньте {partnerName} відео",
+          "PARTNER_MUST_VIEW_YOUR_VIDEO":  "{partnerName} скоро перегляне ваше відео",
+          "YOU_MUST_PROPOSE_MEETING": "запропонуйте зустріч",
+          "PARTNER_MUST_ACCEPT_OR_DECLINE_MEETING": "очікуйте коли {partnerName} прийме вашу пропозицію",
+          "YOU_MUST_ACCEPT_OR_DECLINE_MEETING": "прийміть або відхиліть зустріч",
+          "MEETING_SETUP": "зустріч домовлена!"
+        },
+        "proposeMeeting": "запропонувати зустріч",
+        "waitingResponse": "очікуйте {hisHer} відповідь",
+        "likeVideo": "перегляньте {heShe} mmeet-відео",
+        "likedVideo": "Ви лайкнули {heShe} mmeet-video",
+        "skipedVideo": "Ви відмінили матч з {partnerName}",
+        "waitingLike": "очікуйте {hisHer} лайк",
+        "fillContactInfo": "Заповніть свою контактну інформацію в Профілі щоб мати можливість назначити зустріч з {partnerName}",
+        "waitContactInfo": "{partnerName} поки не має контактної інформації.\n\nЗачекайте коли {heShe} заповнить її щоб мати можливість назначити зустріч.",
+        "openMore": {
+          "unmatch": {
+            "buttonLabel": "Анматч",
+            "title": "Анматч з {partnerName}",
+            "description": "Ви впевнені що хочете анмачнутись з {partnerName}?",
+            "yesUnmatch": "Так, анматч"
+          },
+          "complaint": "Поскаржитись"
+        },
+        "details": {
+          "cancelMeetingPopup": {
+            "title": "Відмінити зустріч",
+            "message": "Ви впевнені що хочете відмінити зустріч?",
+            "yesCancel": "Так, відмінити",
+            "no": "Ні"
+          }
+        },
+        "contactInfo": "{hisHer} контактна інформація буде доступна за 30 хв до зустрічі",
+        "routes": {
+          "proposeMeeting": {
+            "title": "Запропонувати зустріч",
+            "date": "Дата",
+            "time": "Час",
+            "address": "Місце",
+            "proposeButton": "Запропонувати"
+          }
+        }
+      }
+    }
+  },
+  "notifications": {
+    "IT_IS_MATCH": "Вітаємо, це співпадіння. {fromUserName}, {toUserName}",
+    "MATCH_INTERESTING_VIDEO": "{userName} вподобав/ла ваше mmeet-відео",
+    "MEETING_PROPOSE": "{userName} запропонував/ла зустріч",
+    "MEETING_CANCEL": "{userName} відмінив/ла зустріч",
+    "MEETING_ACCEPT": "{userName} прийняв/ла зустріч",
+    "VIDEO_PROCESSING": "mmeet-відео оновлено успішно"
+  },
+  "complaint": {
+    "title": "Поскаржитись на {partnerName}",
+    "reason": "Причина",
+    "sendButton": "Надіслати",
+    "successSentMessage": "Скарга надіслана"
+  },
+  "profile": {
+    "title": "Профіль",
+    "name": "Ім'я",
+    "birthday": "День народження",
+    "gender": "Стать",
+    "contactInfo": "Контактна інформація",
+    "language": "Мова",
+    "privacyPolicy": "Конфіденційність",
+    "contactUs": "Зворотній зв'язок",
+    "terms": "Умови використання",
+    "editors": {
+      "contactInfo": {
+        "description": "Ваша контактна інформація буде показана за 30 хвилин до зустрічі",
+        "placeholder": "Номер телефону, Instagram, Facebook..."
+      }
+    }
+  },
+  "contactUs": {
+    "description": "Якщо ви маєте побажання чи пропозицію - ми будемо раді її почути",
+    "sendButton": "Надіслати",
+    "successSent": "Надіслано"
+  },
+  "videoStudio": {
+    "title": "Відео студія",
+    "buttons": {
+      "mainVideo": {
+        "label": "mmeet-відео",
+        "states": {
+          "noVideos": "Дайте відповідь хоча б на одне питання щоб mmeet-відео активізувалось",
+          "processing": "mmeet-відео буде скоро оновлено..."
+        }
+      },
+      "record": "Почати",
+      "finish": "Закінчити",
+      "upload": "Завантажити",
+      "routes": {
+        "info": {
+          "title": "Що таке mmeet-відео?",
+          "description": "Щойно ви відповісте на запитання на попередньому екрані, ці відео буде об’єднано в одне mmeet-відео.\n\nmmeet-відео показуватиметься вашим партнерам і навпаки після того, як ви та ваш партнер отримаєте лайки ваших фото."
+        }
+      }
+    },
+    "alert": {
+      "deleteAnswer": {
+        "title": "Видалити відповідь",
+        "description": "Ви дійсно хочете видалити відповідь?",
+        "confirm": "Так, видалити"
+      }
+    },
+    "processing": "Завантаження..."
+  },
+  "inviteFriend": {
+    "title": "Запросити друга",
+    "description": "Запросіть свого друга. Задайте другу питання, запишіть їх на відео. Коли друг зареєструється, mmeet-відео чекатиме на нього.",
+    "subText": "* коли ви натисните \"Далі\", імейл буде зареєстрований та більше не зможе бути використаний",
+    "buttons": {
+      "inviteFriend": "Запросити друга"
+    },
+    "routes": {
+      "questions": {
+        "title": "Питання",
+        "description": "Запишіть відповіді вашого друга {inviteUserEmail} на камеру. mmeet-відео буде очікувати після реєстрації."
+      },
+      "statistic": {
+        "title": "Статистика",
+        "noData": "Поки немає запрошених друзів",
+        "routes": {
+          "info": {
+            "description": "В статистиці запрошених друзів відображається запрошені вами друзі та їх статистика.\n\nЦей розділ можна розглядати як такий, який показує ланцюжок подій автором якого є ви. Люди зустрічаються, та ви цьому посприяли."
+          }
+        }
+      }
+    }
+  },
+  "findOptions": {
+    "title": "Опції пошуку",
+    "interestingIn": "Цікавлюсь",
+    "city": "Місто",
+    "zodiacSigns": {
+      "label": "Знак Зодіаків",
+      "allSelected": "Всі",
+      "ifNothingMeanAll": "Нічого не вибрано означає вибрані усі"
+    },
+    "ageRange": {
+      "label": "Вік",
+      "yearsOld": "{ageRange} років"
+    }
+  },
+  "subscriptions": {
+    "name": "Підписка",
+    "title": "Отримай mmUnlim",
+    "month": "місяц",
+    "months": "місяців",
+    "mo": "м",
+    "meetingsAvailable": "У вас є {mmeetsCount} mmeets цього тижня",
+    "promotions": {
+      "p1": "безлімітні mmeets",
+      "p2": "незабутні враження"
+    },
+    "info": {
+      "title": "Квота",
+      "desc1": "Користувачі отримують щотижня {count} mmeets.",
+      "desc2": "Кожна прийнята зустріч - це 1 mmeet.",
+      "desc3": "Підпишіться, щоб отримати безлімітні mmeets."
+    }
+  },
+  "hisHer": {
+    "his": "його",
+    "her": "її"
+  },
+  "heShe": {
+    "he": "він",
+    "she": "вона"
+  }
+}

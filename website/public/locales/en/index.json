@@ -1,0 +1,29 @@
+{
+  "subLogo": "it’s where we meet each other’s personalities",
+  "title": "A dating app oriented on real dates, with no chat, and up to 5 minutes from a match to a real date",
+  "howItWorks": {
+    "title": "How it works",
+    "steps": {
+      "1": "Upload your photo, answer <strong>mmeet questions</strong>",
+      "2": "Find your match, like his/her photo and mmeet video",
+      "3": "Meet in real"
+    }
+  },
+  "willBeAvailableSoon": "will be available soon",
+  "mmeetQuestions": {
+    "title": "mmeet questions",
+    "description": "They're questions for you to imagine. Every person has it's own imagination and while both of you would listening answers, your feeling will guide you who's your match."
+  },
+  "yourAttentionMatter": {
+    "title": "Your attention matter for us",
+    "description": "We believe people’s attention is one of the most essential thing in the world. That’s why mmeet is so oriented on real dating, minimizing time spent in the app. Our mission is to give you experience which allows you to find your interested match, like, and agree to meet for up to 5 minutes!"
+  },
+  "whyItMatters": {
+    "title": "Why it matters",
+    "description": "Your choice would be based on what you hear, see and feel, the same like in life. Your subconscious will choose for you, and your goal is to meet with each other and will be what will be."
+  },
+  "inviteFriend": {
+    "title": "Become a journalist",
+    "description": "Open your mmeet-app, invite a friend by email, ask questions, record them on the camera. When a friend registers, the mmeet-video will already be waiting."
+  }
+}
