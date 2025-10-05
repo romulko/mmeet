@@ -31,12 +31,24 @@ timeout /t 1200 /nobreak
 
 :: Перевірка існування папки
 if not exist "%FOLDER_PATH%" (
-    echo Папка не знайдена: %FOLDER_PATH% >> "%~dp0cleanup_log.txt"
+    echo [%date% %time%] Папка не знайдена: %FOLDER_PATH% >> "%~dp0cleanup_log.txt"
     exit /b
 )
 
-:: Видалення всіх файлів з папки
+:: Видалення файлів з пропуском тих, що використовуються
 echo Видалення файлів з папки %FOLDER_PATH%...
-del /q "%FOLDER_PATH%\*.*"
+set "deleted=0"
+set "skipped=0"
+
+for %%F in ("%FOLDER_PATH%\*.*") do (
+    del "%%F" 2>nul
+    if exist "%%F" (
+        echo Пропущено (використовується): %%~nxF
+        echo [%date% %time%] Пропущено: %%~nxF >> "%~dp0cleanup_log.txt"
+        set /a skipped+=1
+    ) else (
+        set /a deleted+=1
+    )
+)
 
 exit /b
